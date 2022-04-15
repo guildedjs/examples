@@ -1,0 +1,42 @@
+{
+    "name": "@guildedjs/examples",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Overarching repository for the Guilded.JS examples repository",
+    "author": "Zaid \"Nico\" <contact@nico.engineer>",
+    "scripts": {
+        "lint": "npx eslint examples/",
+        "lint:fix": "pnpm run lint --fix",
+        "prepare": "npx husky install",
+        "prettier": "npx prettier --write **/*.{ts,js,json,yml,yaml,md}",
+        "refresh": "node scripts/refresh.js"
+    },
+    "devDependencies": {
+        "dotenv": "16.0.0",
+        "eslint": "8.13.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-plugin-prettier": "4.0.0",
+        "husky": "7.0.4",
+        "lint-staged": "12.3.7",
+        "prettier": "2.6.2",
+        "pretty-quick": "3.1.3",
+        "rimraf": "3.0.2"
+    },
+    "contributors": [
+        {
+            "name": "Zaid \"Nico\"",
+            "email": "contact@nico.engineer",
+            "url": "https://github.com/zaida04"
+        },
+        {
+            "name": "Skillz4Killz",
+            "email": "guildedjs@drskillz.33mail.com",
+            "url": "https://github.com/Skillz4Killz"
+        },
+        {
+            "name": "Uhuh \"Dylan\"",
+            "email": "dylan@panku.io",
+            "url": "https://github.com/uhuh"
+        }
+    ]
+}

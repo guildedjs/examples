@@ -1,0 +1,29 @@
+name: CI workflows
+on: [push, pull_request]
+
+jobs:
+    ci-workflow:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Clone repo
+              uses: actions/checkout@v3
+
+            - name: Install PNPM
+              uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+              with:
+                  version: 6.32.7
+
+            - name: Set up Node v16
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "16"
+                  cache: "pnpm"
+
+            - name: Install dependencies
+              run: pnpm install -r
+
+            - name: Run linter
+              run: pnpm run lint
+
+            - name: Run TypeScript Compiler
+              run: pnpm run build

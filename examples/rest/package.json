@@ -1,0 +1,16 @@
+{
+    "name": "guilded.js-example-rest",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Example project for using the REST package",
+    "author": "Zaid \"Nico\" <contact@nico.engineer>",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "@guildedjs/rest": "^2.4.0",
+        "dotenv": "^16.0.0"
+    },
+    "repository": "https://github.com/guildedjs/guilded.js"
+}

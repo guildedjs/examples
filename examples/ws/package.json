@@ -1,0 +1,18 @@
+{
+    "name": "guilded.js-example-ws",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Example project for using the WS package",
+    "author": "Zaid \"Nico\" <contact@nico.engineer>",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.0"
+    },
+    "repository": "https://github.com/guildedjs/guilded.js",
+    "dependencies": {
+        "@guildedjs/ws": "^1.3.0"
+    }
+}

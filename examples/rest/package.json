@@ -9,7 +9,7 @@
         "start": "node src/index.js"
     },
     "dependencies": {
-        "@guildedjs/rest": "^2.4.0",
+        "@guildedjs/rest": "^2.5.0",
         "dotenv": "^16.0.0"
     },
     "repository": "https://github.com/guildedjs/guilded.js"

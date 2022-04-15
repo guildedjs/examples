@@ -9,7 +9,7 @@ importers:
       eslint-config-prettier: 8.5.0
       eslint-plugin-prettier: 4.0.0
       husky: 7.0.4
-      lint-staged: 12.3.7
+      lint-staged: 12.3.8
       prettier: 2.6.2
       pretty-quick: 3.1.3
       rimraf: 3.0.2
@@ -19,7 +19,7 @@ importers:
       eslint-config-prettier: 8.5.0_eslint@8.13.0
       eslint-plugin-prettier: 4.0.0_1815ac95b7fb26c13c7d48a8eef62d0f
       husky: 7.0.4
-      lint-staged: 12.3.7
+      lint-staged: 12.3.8
       prettier: 2.6.2
       pretty-quick: 3.1.3_prettier@2.6.2
       rimraf: 3.0.2
@@ -27,27 +27,27 @@ importers:
   examples/bot:
     specifiers:
       dotenv: ^16.0.0
-      guilded.js: ^0.5.0
+      guilded.js: ^0.6.0
     dependencies:
       dotenv: 16.0.0
-      guilded.js: 0.5.0
+      guilded.js: 0.6.0
 
   examples/command-handler:
     specifiers:
-      '@discordjs/collection': ^0.1.6
+      '@discordjs/collection': ^0.5.0
       dotenv: ^16.0.0
-      guilded.js: ^0.5.0
+      guilded.js: ^0.6.0
     dependencies:
-      '@discordjs/collection': 0.1.6
+      '@discordjs/collection': 0.5.0
       dotenv: 16.0.0
-      guilded.js: 0.5.0
+      guilded.js: 0.6.0
 
   examples/rest:
     specifiers:
-      '@guildedjs/rest': ^2.4.0
+      '@guildedjs/rest': ^2.5.0
       dotenv: ^16.0.0
     dependencies:
-      '@guildedjs/rest': 2.4.0
+      '@guildedjs/rest': 2.5.0
       dotenv: 16.0.0
 
   examples/ws:
@@ -60,10 +60,6 @@ importers:
       dotenv: 16.0.0
 
 packages:
-
-  /@discordjs/collection/0.1.6:
-    resolution: {integrity: sha512-utRNxnd9kSS2qhyivo9lMlt5qgAUasH2gb7BEOn6p0efFh24gjGomHzWKMAPn2hEReOPQZCJaRKoURwRotKucQ==}
-    dev: false
 
   /@discordjs/collection/0.5.0:
     resolution: {integrity: sha512-3Vr3y4/Kl6ThOsD/cbXkK4JmjawQahbM3ojHpD6XyTEOG4fwZFMYH/NTWKFd5WZUw38iQsvGC4Kt4VkL++1hFQ==}
@@ -91,8 +87,8 @@ packages:
     resolution: {integrity: sha512-Pqpc/aCd30LEggZPiZvnw1aNWY7x8q6ezhRHA3vqMac05EeiFeUEUQSaskSNNQxF/qmfKB+S4irINZdQp1L+tw==}
     dev: false
 
-  /@guildedjs/rest/2.4.0:
-    resolution: {integrity: sha512-82Cg3+PIKtwE0PTHEkjHEZfHugGV7vttCGIlV9iu0gy7onStqWp7kxCWbQn7WGMcoGEGr44FXptcBHLPSqx29w==}
+  /@guildedjs/rest/2.5.0:
+    resolution: {integrity: sha512-w/eAMyKJx8HcNT6YUwNvN2v2I7NVUB6fD+c0DZ9f02H2jgsq7i5lE9gxHve4MvKO0lOVxIp+4DAsR9bQ/URjzA==}
     dependencies:
       node-fetch: 2.6.7
       qs: 6.10.3
@@ -100,10 +96,10 @@ packages:
       - encoding
     dev: false
 
-  /@guildedjs/webhook-client/0.1.0:
-    resolution: {integrity: sha512-sZQ8UGYJhOFMVAPoVvX/8/BMmBd6+DMeyV9IpXfgh4vp3JzNhySx0ea4QszMFveczva3akjVLynDiXkOvefLMg==}
+  /@guildedjs/webhook-client/0.2.0:
+    resolution: {integrity: sha512-/b8DEA965oUj4rNVjdDUSi3muCEaXC//Fb7Omqi8NErrASlsXGfbVMJrrNgL2j5XhnZts0R2z6OWRFCCNyo0Ig==}
     dependencies:
-      '@guildedjs/rest': 2.4.0
+      '@guildedjs/rest': 2.5.0
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -671,12 +667,12 @@ packages:
       type-fest: 0.20.2
     dev: true
 
-  /guilded.js/0.5.0:
-    resolution: {integrity: sha512-9y6FNPHrGVgG5o9tMI/W6jpqLOVySxcN6hajCqsQQ/zz46AMvfu9ZMtixiEJ06fUpANveR8yCgLihyANKt6Lcw==}
+  /guilded.js/0.6.0:
+    resolution: {integrity: sha512-zxyXOD1evIB4vZjeJCZMxbi2v3xfVB80bk2Q5dLudr0VZyJu4o2ro6eKcXuVNlgoxo5Xmif98GyIfyZNRv3aYw==}
     dependencies:
       '@discordjs/collection': 0.5.0
-      '@guildedjs/rest': 2.4.0
-      '@guildedjs/webhook-client': 0.1.0
+      '@guildedjs/rest': 2.5.0
+      '@guildedjs/webhook-client': 0.2.0
       '@guildedjs/ws': 1.3.0
     transitivePeerDependencies:
       - bufferutil
@@ -815,8 +811,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lint-staged/12.3.7:
-    resolution: {integrity: sha512-/S4D726e2GIsDVWIk1XGvheCaDm1SJRQp8efamZFWJxQMVEbOwSysp7xb49Oo73KYCdy97mIWinhlxcoNqIfIQ==}
+  /lint-staged/12.3.8:
+    resolution: {integrity: sha512-0+UpNaqIwKRSGAFOCcpuYNIv/j5QGVC+xUVvmSdxHO+IfIGoHbFLo3XcPmV/LLnsVj5EAncNHVtlITSoY5qWGQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:

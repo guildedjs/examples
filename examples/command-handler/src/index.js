@@ -1,6 +1,6 @@
 require("dotenv/config");
 
-const Collection = require("@discordjs/collection");
+const { Collection } = require("@discordjs/collection");
 const { readdir } = require("fs/promises");
 const { join } = require("path");
 const { Client } = require("guilded.js");

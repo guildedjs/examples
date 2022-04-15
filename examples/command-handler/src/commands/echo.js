@@ -3,6 +3,6 @@ module.exports = {
     aliases: ["speak", "talk"],
     execute: (msg, args) => {
         if (!args.length) return msg.send("You must give me something to echo!");
-        msg.send(msg.channelId, args.join(" "));
+        msg.send(args.join(" "));
     },
 };

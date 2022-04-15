@@ -9,9 +9,9 @@
         "start": "node src/index.js"
     },
     "dependencies": {
-        "@discordjs/collection": "^0.1.6",
+        "@discordjs/collection": "^0.5.0",
         "dotenv": "^16.0.0",
-        "guilded.js": "^0.5.0"
+        "guilded.js": "^0.6.0"
     },
     "repository": "https://github.com/guildedjs/guilded.js"
 }

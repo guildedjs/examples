@@ -25,5 +25,5 @@ jobs:
             - name: Run linter
               run: pnpm run lint
 
-            - name: Run TypeScript Compiler
-              run: pnpm run build
+            # - name: Run TypeScript Compiler
+            #   run: pnpm run build

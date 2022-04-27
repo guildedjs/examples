@@ -27,10 +27,10 @@ importers:
   examples/bot:
     specifiers:
       dotenv: ^16.0.0
-      guilded.js: ^0.6.0
+      guilded.js: ^0.7.1
     dependencies:
       dotenv: 16.0.0
-      guilded.js: 0.6.0
+      guilded.js: link:../../../guilded.js-next/packages/guilded.js
 
   examples/command-handler:
     specifiers:

@@ -8,5 +8,5 @@ const { RestManager } = require("@guildedjs/rest");
 const rest = new RestManager({ token: process.env.TOKEN });
 
 void (async () => {
-    await rest.router.createChannelMessage(process.env.CHANNEL_ID, "Test message!");
+    await rest.router.createChannelMessage(process.env.CHANNEL_ID, { content: "Test message!" });
 })();

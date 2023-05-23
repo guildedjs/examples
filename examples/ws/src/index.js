@@ -1,6 +1,6 @@
 require("dotenv/config");
 
-const { WebSocketManager } = require("@guildedjs/ws");
+const { WebSocketManager } = require("@guildedjs/api");
 
 if (!process.env.TOKEN) throw new Error("Missing token!");
 const ws = new WebSocketManager({ token: process.env.TOKEN });

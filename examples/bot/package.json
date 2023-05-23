@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "dotenv": "^16.0.3",
-        "guilded.js": "^0.20.2"
+        "guilded.js": "0.22.2"
     },
     "repository": "https://github.com/guildedjs/guilded.js"
 }

@@ -13,6 +13,6 @@
     },
     "repository": "https://github.com/guildedjs/guilded.js",
     "dependencies": {
-        "@guildedjs/ws": "^1.6.2"
+        "@guildedjs/api": "0.3.0"
     }
 }
